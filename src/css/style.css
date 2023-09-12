@@ -1,0 +1,8 @@
+:root {
+    --text-white: #f8fdfd;
+    --dark-green: #00251c;
+    --light-green: #2e7d74;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient(to bottom right, var(--dark-green), var(--light-green));
+    color: var(--text-white);
+}
