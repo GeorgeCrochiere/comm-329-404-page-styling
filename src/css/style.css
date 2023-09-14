@@ -3,7 +3,6 @@
     --dark-green: #00251c;
     --light-green: #2e7d74;
     --bright-green: #00b295;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: linear-gradient(to bottom right, var(--dark-green), var(--light-green));
     color: var(--text-white);
     margin: 0px;
@@ -14,6 +13,7 @@ body {
     flex-direction: column;
     align-items: stretch;
     min-height: max-content;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
@@ -27,11 +27,13 @@ hr {
     margin: 0px;
     padding: 0px;
     color: var(--bright-green);
+    height: 4px;
+    background-color: var(--bright-green);
 }
 
 footer {
     background-color: var(--dark-green);
-    /*url('/src/img/endless-constellation.svg')*/
+    /*-- url('/src/img/endless-constellation.svg') --*/
     display: flex;
     justify-content: space-between;
     min-height: 4em;
