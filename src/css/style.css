@@ -16,11 +16,12 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-header {
+header,
+footer {
     background-color: var(--dark-green);
     display: flex;
     justify-content: space-between;
-    min-height: 4em;
+    min-height: 4rem;
 }
 
 hr {
@@ -32,9 +33,7 @@ hr {
 }
 
 footer {
-    background-color: var(--dark-green);
     /*-- url('/src/img/endless-constellation.svg') --*/
+}
     display: flex;
-    justify-content: space-between;
-    min-height: 4em;
 }
