@@ -8,11 +8,11 @@
     margin: 0px;
 }
 
+html {
+    min-height: 100%;
+}
+
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    min-height: max-content;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -21,7 +21,7 @@ footer {
     background-color: var(--dark-green);
     display: flex;
     justify-content: space-between;
-    min-height: 4rem;
+    min-height: 6rem;
 }
 
 hr {
@@ -33,11 +33,21 @@ hr {
 }
 
 footer {
-    /*-- url('/src/img/endless-constellation.svg') --*/
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-image: url('../img/endless-constellation.svg')
+}
+
+hr.page-end {
+    position: fixed;
+    bottom: 6rem;
+    width: 100%
 }
 
 section {
     display: flex;
+    margin-bottom: calc(6rem + 4px);
 }
 
 nav {
