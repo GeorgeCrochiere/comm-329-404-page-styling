@@ -35,5 +35,24 @@ hr {
 footer {
     /*-- url('/src/img/endless-constellation.svg') --*/
 }
+
+section {
     display: flex;
+}
+
+nav {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: var(--text-white);
+    text-decoration: none;
+    margin: 2rem;
+}
+
+figure {
+    max-width: 50%;
 }
