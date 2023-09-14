@@ -3,6 +3,7 @@
     --dark-green: #00251c;
     --light-green: #2e7d74;
     --bright-green: #00b295;
+    --green-404: #0fa38b;
     background-image: linear-gradient(to bottom right, var(--dark-green), var(--light-green));
     color: var(--text-white);
     margin: 0px;
@@ -57,6 +58,12 @@ nav {
     align-items: center;
 }
 
+div.section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 a {
     color: var(--text-white);
     text-decoration: none;
@@ -65,4 +72,55 @@ a {
 
 figure {
     max-width: 50%;
+}
+
+ul {
+    font-size: 2.4rem;
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+span.color-text {
+    color: var(--green-404);
+    margin-top: -2rem;
+}
+
+p.left-bound {
+    padding-left: 2rem;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
+a.page-nav-button {
+    margin: 0px;
+    padding: 1rem;
+    background-color: var(--dark-green);
+    display: flex;
+    align-items: center;
+    width: min-content;
+    border-radius: 1rem;
+}
+
+i.material-symbols-outlined {
+    font-size: 28px;
+}
+
+li.page-second {
+    margin-left: 5rem;
+}
+
+h1 {
+    margin: 4px;
+    font-size: 5rem;
+    color: var(--bright-green);
+}
+
+h2 {
+    margin: 4px;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
 }
