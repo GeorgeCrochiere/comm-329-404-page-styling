@@ -1,9 +1,10 @@
 :root {
     --text-white: #f8fdfd;
+    --text-50-white: #b4c5c5;
     --dark-green: #00251c;
     --light-green: #2e7d74;
     --bright-green: #00b295;
-    --green-404: #0fa38b;
+    --green-404: #4fecd2;
     background-image: linear-gradient(to bottom right, var(--dark-green), var(--light-green));
     color: var(--text-white);
     margin: 0px;
@@ -49,6 +50,7 @@ hr.page-end {
 section {
     display: flex;
     margin-bottom: calc(6rem + 4px);
+    justify-content: center;
 }
 
 nav {
@@ -89,6 +91,8 @@ span.color-text {
 
 p.left-bound {
     padding-left: 2rem;
+    color: var(--text-50-white);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 li {
@@ -122,5 +126,17 @@ h1 {
 h2 {
     margin: 4px;
     margin-left: 5rem;
-    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+h2.error-code {
+    margin-left: 10rem;
+    margin-bottom: 4rem;
+}
+
+i.right-icon {
+    font-size: 4rem;
+    margin-right: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
 }
