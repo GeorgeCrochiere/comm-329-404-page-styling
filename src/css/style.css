@@ -74,6 +74,7 @@ a {
 
 figure {
     max-width: 50%;
+    margin-left: -10rem;
 }
 
 ul {
@@ -100,6 +101,7 @@ li {
 }
 
 a.page-nav-button {
+    font-size: 1.5vw;
     margin: 0px;
     padding: 1rem;
     background-color: var(--dark-green);
@@ -110,7 +112,7 @@ a.page-nav-button {
 }
 
 i.material-symbols-outlined {
-    font-size: 28px;
+    font-size: 1.5vw;
 }
 
 li.page-second {
@@ -119,14 +121,14 @@ li.page-second {
 
 h1 {
     margin: 4px;
-    font-size: 5rem;
+    font-size: 3.5vw;
     color: var(--bright-green);
 }
 
 h2 {
     margin: 4px;
     margin-left: 5rem;
-    font-size: 3rem;
+    font-size: 2.5vw;
 }
 
 h2.error-code {
@@ -139,4 +141,9 @@ i.right-icon {
     margin-right: 2rem;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+img {
+    margin-right: -25%;
+    margin-left: 25%;
 }
