@@ -101,7 +101,7 @@ li {
 }
 
 a.page-nav-button {
-    font-size: 1.5vw;
+    font-size: 2rem;
     margin: 0px;
     padding: 1rem;
     background-color: var(--dark-green);
@@ -112,7 +112,7 @@ a.page-nav-button {
 }
 
 i.material-symbols-outlined {
-    font-size: 1.5vw;
+    font-size: 2.5rem;
 }
 
 li.page-second {
@@ -121,14 +121,14 @@ li.page-second {
 
 h1 {
     margin: 4px;
-    font-size: 3.5vw;
+    font-size: 3.5rem;
     color: var(--bright-green);
 }
 
 h2 {
     margin: 4px;
     margin-left: 5rem;
-    font-size: 2.5vw;
+    font-size: 2.5rem;
 }
 
 h2.error-code {
