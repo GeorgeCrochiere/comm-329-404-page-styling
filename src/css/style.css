@@ -72,6 +72,7 @@ div.section-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-right: 15rem;
 }
 
 a {
@@ -82,7 +83,7 @@ a {
 
 figure {
     max-width: 50%;
-    margin-left: -10rem;
+    padding-left: -10rem;
 }
 
 ul {
@@ -131,7 +132,6 @@ h1 {
     margin: 4px;
     font-size: 4rem;
     color: var(--bright-green);
-    margin-right: 15rem;
 }
 
 h2 {
@@ -155,4 +155,27 @@ i.right-icon {
 img {
     margin-right: -25%;
     margin-left: 25%;
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        flex-direction: column-reverse;
+    }
+
+    div.section-content {
+        margin: 4rem;
+    }
+
+    ul {
+        margin-left: 30%;
+    }
+
+    figure {
+        max-width: 90%;
+    }
+
+    img {
+        margin: 0px;
+        margin-left: 8vw;
+    }
 }
