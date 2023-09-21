@@ -39,6 +39,7 @@ hr {
     color: var(--bright-green);
     height: 4px;
     background-color: var(--bright-green);
+    border: 0px;
 }
 
 header {
