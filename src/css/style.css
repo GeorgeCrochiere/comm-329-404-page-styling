@@ -199,4 +199,8 @@ i.right-icon {
     nav.botton-nav:last-child {
         padding-right: 3vw;
     }
+
+    i.right-icon {
+        display: none;
+    }
 }
